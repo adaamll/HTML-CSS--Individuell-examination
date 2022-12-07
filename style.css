@@ -173,6 +173,27 @@ p {
   width: 25%;
 }
 
+.header-nav {
+  display: none;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  font-size: 2rem;
+  margin-right: 2em;
+}
+
+.header-nav a:hover,
+.header-nav a:focus {
+  font-weight: 600;
+  border-bottom: 1px solid var(--secondary-text-color);
+}
+
+.header-nav--active {
+  border-bottom: 1px solid var(--secondary-text-color);
+}
+
 .open-nav,
 .close-nav {
   display: block;
@@ -531,12 +552,20 @@ p {
     display: block;
   }
 
+  .open-nav {
+    display: none;
+  }
+
   /* ABOUT US PAGE */
 
   .header-logo {
     margin-left: 3em;
     width: 15%;
     max-width: 200px;
+  }
+
+  .header-nav {
+    display: block;
   }
 
   .main-about,
