@@ -408,7 +408,11 @@ p {
 }
 
 .hotel-room-card-info-title {
-  margin-top: 0.5em;
+  margin: 0.5em 0 0 0;
+}
+
+.fa-star {
+  color: rgb(247, 211, 54);
 }
 
 .hotel-room-card-info-text {
