@@ -377,7 +377,7 @@ p {
 /* HOTEL ROOMS CARDS */
 
 .hotel-room-card {
-  max-width: 450px;
+  max-width: 45rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 8px;
   overflow: hidden;
@@ -555,7 +555,7 @@ p {
   }
 
   .hotel-room-card {
-    width: 600px;
+    width: 60rem;
     transition: all 250ms;
   }
 
