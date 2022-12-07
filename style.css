@@ -45,13 +45,21 @@ p {
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .landing-page-header {
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+
+.landing-page-header nav {
+  margin-top: 3em;
 }
 
 .landing-page-logo {
@@ -542,6 +550,11 @@ p {
     width: 15%;
     align-self: flex-start;
     margin-left: 3em;
+  }
+
+  .landing-page-header {
+    display: flex;
+    justify-content: space-between;
   }
 
   .landing-page-title {
