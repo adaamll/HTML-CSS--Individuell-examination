@@ -413,6 +413,9 @@ p {
 
 .fa-star {
   color: rgb(247, 211, 54);
+  letter-spacing: 5px;
+  font-size: 1.2rem;
+  margin-top: 0.5em;
 }
 
 .hotel-room-card-info-text {
@@ -447,6 +450,62 @@ p {
 .hotel-room-card-info-btn:focus {
   background-color: var(--main-text-color);
   font-weight: 700;
+}
+
+/*  FOOTER */
+
+.footer {
+  background: linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)),
+    url(/photos/footer.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  height: 40rem;
+  background-color: #e2e2e2;
+  padding: 5em 8em;
+  text-align: center;
+  display: none;
+}
+
+.footer-logo {
+  width: 14%;
+}
+
+.logo-socials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav {
+  margin: 0 auto;
+  margin-top: 2em;
+  font-size: 1.5rem;
+  padding: 2em;
+  border-bottom: 1px solid var(--secondary-color);
+  border-top: 1px solid var(--secondary-color);
+  max-width: 80rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.fa-brands {
+  color: var(--secondary-color);
+  font-size: 5rem;
+  margin-left: 0.5em;
+}
+
+.copyright {
+  margin-top: 12em;
+  color: var(--secondary-text-color);
+  font-size: 1.2rem;
 }
 
 /* MEDIA QUERY */
@@ -517,6 +576,7 @@ p {
     margin-top: 3em;
     background-color: var(--secondary-color);
     display: flex;
+    margin-bottom: 7em;
   }
 
   .main-about-accomodation-title {
@@ -598,6 +658,11 @@ p {
   }
 
   .main-hotel-rooms-text {
+    display: block;
+  }
+
+  /* FOOTER */
+  .footer {
     display: block;
   }
 }
