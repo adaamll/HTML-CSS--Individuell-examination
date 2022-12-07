@@ -53,9 +53,6 @@ p {
 
 .landing-page-header {
   text-align: center;
-
-  /* flex-direction: column; */
-  /* align-items: center; */
 }
 
 .landing-page-header nav {
@@ -481,6 +478,8 @@ p {
   font-weight: 700;
 }
 
+/* SEARCH - BOOKING SECTION END */
+
 /*  FOOTER */
 
 .footer {
@@ -551,6 +550,8 @@ p {
   font-size: 1.2rem;
 }
 
+/* FOOTER END */
+
 /* MEDIA QUERY */
 
 @media (min-width: 768px) {
@@ -582,6 +583,8 @@ p {
   .open-nav {
     display: none;
   }
+
+  /* LANDING PAGE END */
 
   /* ABOUT US PAGE */
 
@@ -665,6 +668,8 @@ p {
     display: block;
   }
 
+  /* ABOUT US PAGE END */
+
   /* SEARCH - BOOKING PAGE */
 
   .main-hotel-rooms {
@@ -716,6 +721,8 @@ p {
   .main-hotel-rooms-text {
     display: block;
   }
+
+  /* SEARCH - BOOKING PAGE END */
 
   /* FOOTER */
   .footer {
