@@ -355,7 +355,8 @@ p {
 
 .main-hotel-rooms {
   margin: 0 auto;
-  max-width: 90%;
+  width: 90%;
+  max-width: 500px;
 }
 
 .main-hotel-rooms-title {
@@ -370,8 +371,7 @@ p {
 /* HOTEL ROOMS CARDS */
 
 .hotel-room-card {
-  max-height: 550px;
-  /* max-width: 400px; */
+  max-width: 450px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 8px;
   overflow: hidden;
@@ -540,4 +540,21 @@ p {
   }
 
   /* SEARCH - BOOKING PAGE */
+
+  .main-hotel-rooms {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1000px;
+  }
+
+  .hotel-room-card {
+    width: 600px;
+  }
+
+  .main-hotel-rooms-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+  }
 }
