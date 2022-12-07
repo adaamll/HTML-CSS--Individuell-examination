@@ -556,6 +556,11 @@ p {
 
   .hotel-room-card {
     width: 600px;
+    transition: all 250ms;
+  }
+
+  .hotel-room-card:hover {
+    transform: scale(1.05);
   }
 
   .main-hotel-rooms-card-container {
