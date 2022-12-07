@@ -523,12 +523,26 @@ p {
   color: var(--secondary-text-color);
   text-transform: uppercase;
   font-weight: 500;
+  transition: all 250ms;
+}
+
+.footer-nav a:hover,
+.footer-nav a:focus {
+  font-weight: 700;
+  transform: scale(1.2);
 }
 
 .fa-brands {
   color: var(--secondary-color);
   font-size: 5rem;
   margin-left: 0.5em;
+  transition: all 250ms;
+}
+
+.fa-brands:hover,
+.fa-brands:focus {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 .copyright {
@@ -539,7 +553,7 @@ p {
 
 /* MEDIA QUERY */
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
   /* LANDING PAGE */
   .landing-page-main__form {
     flex-direction: row;
