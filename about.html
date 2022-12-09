@@ -16,60 +16,60 @@
       <img
         src="/logo/bonz.ai-logo-white-landscape.png"
         alt="logotype of the company bonzai"
-        class="header-logo"
+        class="header__logo"
       />
 
-      <nav class="header-nav">
+      <nav class="header__nav">
         <a href="index.html">Home</a>
-        <a class="header-nav--active" href="about.html">About us</a>
+        <a class="header__nav--active" href="about.html">About us</a>
         <a href="search.html">Rooms</a>
       </nav>
-      <button aria-label="Open navigation" class="open-nav open">
+      <button aria-label="Open navigation" class="open__nav open">
         &#9776;
       </button>
     </header>
 
     <section class="hero">
-      <h1 class="hero-title">Rewind</h1>
+      <h1 class="hero__title">Rewind</h1>
     </section>
 
-    <main class="main-about">
-      <article class="main-about-box">
-        <h2 class="main-about-box-title">Reconnect with nature</h2>
-        <p class="main-about-box-text">
+    <main class="main__about">
+      <article class="main__about__box">
+        <h2 class="main__about__box__title">Reconnect with nature</h2>
+        <p class="main__about__box__text">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
           nesciunt vel commodi tenetur eum delectus.
         </p>
       </article>
 
-      <article class="main-about-box main-about-box--dark">
-        <p class="main-about-box-text">
+      <article class="main__about__box main__about__box--dark">
+        <p class="main__about__box__text">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
           nesciunt vel commodi tenetur eum delectus.
         </p>
-        <h2 class="main-about-box-title">AI-driven stay</h2>
+        <h2 class="main__about__box__title">AI-driven stay</h2>
       </article>
 
-      <article class="main-about-accomodation">
-        <h3 class="main-about-accomodation-title">Accomodation</h3>
-        <section class="about-img-wrapper">
+      <article class="main__about__accomodation">
+        <h3 class="main__about__accomodation__title">Accomodation</h3>
+        <section class="main__about__img__wrapper">
           <img
             src="/photos/03-night.jpg"
             alt=""
-            class="main-about-accomodation-img"
+            class="main__about__accomodation__img"
           />
 
           <img
             src="/photos/01-night.jpg"
             alt=""
-            class="main-about-accomodation-img main-about-accomodation-img--desktop"
+            class="main__about__accomodation__img main__about__accomodation__img--desktop"
           />
         </section>
 
-        <form class="btn-dark" action="search.html">
+        <form class="landing-page__main__form--btn-dark" action="search.html">
           <button
             aria-label="Search"
-            class="landing-page-main_form--btn btn-dark"
+            class="landing-page__main__form--btn landing-page__main__form--btn-dark"
           >
             Search
           </button>
@@ -78,32 +78,26 @@
     </main>
 
     <footer class="footer">
-      <section class="logo-socials">
+      <section class="footer__logo__socials">
         <img
-          class="footer-logo"
+          class="footer__logo__socials__bonzai"
           src="/logo/bonz.ai-logo-white-landscape.png"
           alt="Company logo"
         />
 
-        <section class="social">
+        <section class="footer__logo__socials__social">
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-square-facebook"></i>
         </section>
       </section>
 
-      <nav class="footer-nav">
-        <a href="#">Contact</a>
-        <a href="#">About us</a>
-        <a href="#">Policy</a>
+      <nav class="footer__nav">
+        <a class="footer__nav__link" href="#">Contact</a>
+        <a class="footer__nav__link" href="#">About us</a>
+        <a class="footer__nav__link" href="#">Policy</a>
       </nav>
 
-      <p class="copyright">Copyright © Bonz.ai, All rights reserved.</p>
+      <p class="footer__copyright">Copyright © Bonz.ai, All rights reserved.</p>
     </footer>
-
-    <script>
-      document.querySelector('.toggle').addEventListener('click', (e) => {
-        document.querySelector('nav').classList.toggle('open');
-      });
-    </script>
   </body>
 </html>

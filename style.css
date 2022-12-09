@@ -51,35 +51,35 @@ p {
   align-items: center;
 }
 
-.landing-page-header {
+.landing-page__header {
   text-align: center;
 }
 
-.landing-page-header nav {
+.landing-page__header nav {
   margin-top: 3em;
 }
 
-.landing-page-logo {
+.landing-page__logo {
   width: 45%;
   margin: 3em 0 10em 0;
 }
 
-.landing-page-title {
+.landing-page__title {
   color: var(--secondary-text-color);
   text-transform: uppercase;
   margin: 0;
   text-shadow: 2px 2px 4px #000000;
 }
 
-.landing-page-title--first {
+.landing-page__title--first {
   margin-right: 2.5em;
 }
 
-.landing-page-title--second {
+.landing-page__title--second {
   margin-left: 2.5em;
 }
 
-.landing-page-title--desktop {
+.landing-page__title--desktop {
   display: none;
   font-size: 7.2rem;
   color: var(--secondary-text-color);
@@ -89,37 +89,37 @@ p {
   text-shadow: 2px 2px 4px #000000;
 }
 
-.landing-page-text {
+.landing-page__text {
   color: rgba(233, 233, 233, 0.5);
   margin-bottom: 5em;
   max-width: 90%;
 }
 
-.landing-page-text--link {
+.landing-page__text--link {
   text-decoration: none;
   color: var(--secondary-text-color);
   font-weight: 500;
   border-bottom: 1px solid var(--secondary-text-color);
 }
 
-.landing-page-text--link:hover {
+.landing-page__text--link:hover {
   color: rgba(233, 233, 233, 0.7);
 }
 
 /* LANDING PAGE FORM */
 
-.landing-page-main {
+.landing-page__main {
   text-align: center;
 }
 
-.landing-page-main__form {
+.landing-page__main__form {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2em;
 }
 
-.landing-page-main__form input {
+.landing-page__main__form input {
   font-family: inherit;
   min-width: 200px;
   max-width: 200px;
@@ -133,11 +133,11 @@ p {
   outline: none;
 }
 
-.landing-page-main__form input::placeholder {
+.landing-page__main__form input::placeholder {
   color: var(--secondary-text-color);
 }
 
-.landing-page-main_form--btn {
+.landing-page__main__form--btn {
   background: 0;
   border: 2px solid var(--secondary-text-color);
   color: var(--secondary-text-color);
@@ -151,13 +151,14 @@ p {
   transition: all 250ms;
 }
 
-.landing-page-main_form--btn:hover,
-.landing-page-main_form--btn:focus {
+.landing-page__main__form--btn:hover,
+.landing-page__main__form--btn:focus {
   transform: scale(1.1);
   background-color: rgba(233, 233, 233, 0.1);
 }
 
-.landing-page-main__form input[type='date']::-webkit-calendar-picker-indicator {
+.landing-page__main__form
+  input[type='date']::-webkit-calendar-picker-indicator {
   filter: invert();
 }
 
@@ -174,32 +175,32 @@ p {
   /* margin-bottom: 3em; */
 }
 
-.header-logo {
+.header__logo {
   width: 25%;
 }
 
-.header-nav {
+.header__nav {
   display: none;
 }
 
-.header-nav a {
+.header__nav a {
   text-decoration: none;
   color: var(--secondary-text-color);
   font-size: 2rem;
   margin-right: 2em;
 }
 
-.header-nav a:hover,
-.header-nav a:focus {
+.header__nav a:hover,
+.header__nav a:focus {
   font-weight: 600;
   border-bottom: 1px solid var(--secondary-text-color);
 }
 
-.header-nav--active {
+.header__nav--active {
   border-bottom: 1px solid var(--secondary-text-color);
 }
 
-.open-nav {
+.open__nav {
   display: block;
   border: 0;
   background: 0;
@@ -224,7 +225,7 @@ p {
   background-position: bottom center;
 }
 
-.hero-title {
+.hero__title {
   margin-top: 0;
   color: var(--secondary-text-color);
   font-weight: 400;
@@ -233,7 +234,7 @@ p {
   text-shadow: 2px 2px 4px #000000;
 }
 
-.main-about-box {
+.main__about__box {
   max-width: 700px;
   background-color: var(--secondary-color);
   color: var(--main-text-color);
@@ -245,13 +246,13 @@ p {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.main-about-box--dark {
+.main__about__box--dark {
   margin-top: 1em;
   background-color: var(--main-text-color);
   color: var(--secondary-text-color);
 }
 
-.main-about-box h2 {
+.main__about__box__title {
   max-width: 190px;
   font-size: 2.4rem;
   font-weight: 500;
@@ -260,30 +261,30 @@ p {
   padding-right: 1em;
 }
 
-.main-about-box--dark h2 {
+.main__about__box--dark h2 {
   border-left: 2px solid var(--secondary-text-color);
   border-right: none;
   padding-left: 1em;
 }
 
-.main-about-box p {
+.main__about__box__text {
   max-width: 250px;
   padding: 0 0.5em;
   margin: 0;
 }
 
-.main-about-accomodation {
+.main__about__accomodation {
   border-radius: 5px;
 }
 
-.main-about-accomodation,
-.about-img-wrapper {
+.main__about__accomodation,
+.main__about__img__wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.main-about-accomodation-title {
+.main__about__accomodation__title {
   font-size: 2.4rem;
   font-weight: 500;
   color: var(--main-text-color);
@@ -291,19 +292,19 @@ p {
   align-self: flex-start;
 }
 
-.btn-dark {
+.landing-page__main__form--btn-dark {
   color: var(--main-text-color);
   border-color: var(--main-text-color);
   margin-bottom: 3em;
 }
 
-.main-about-accomodation-img {
+.main__about__accomodation__img {
   width: 80%;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.main-about-accomodation-img--desktop {
+.main__about__accomodation__img--desktop {
   display: none;
 }
 
@@ -311,7 +312,7 @@ p {
 
 /* SEARCH - BOOKING SECTION */
 
-.form-box {
+.main__hotel__rooms__form__box {
   margin: 0 auto;
   margin-top: 2em;
   width: 90%;
@@ -328,7 +329,7 @@ p {
     'btn btn';
 }
 
-.form-box-title {
+.main__hotel__rooms__form__box__title {
   grid-area: search;
 }
 
@@ -341,11 +342,11 @@ p {
   margin-right: -0.45em;
 }
 
-.form-inputs label {
+.main__hotel__rooms__form__box__search__inputs label {
   font-size: 1.4rem;
 }
 
-.form-inputs input {
+.main__hotel__rooms__form__box__search__inputs input {
   width: 98%;
   padding: 1em;
   font-size: 1.4rem;
@@ -354,7 +355,7 @@ p {
   border-radius: 2px;
 }
 
-.form-search-btn {
+.main__hotel__rooms__form__box__search__btn {
   grid-area: btn;
   background-color: var(--main-color);
   color: var(--secondary-text-color);
@@ -369,30 +370,30 @@ p {
   width: 100%;
 }
 
-.form-search-btn:hover,
-.form-search-btn:focus {
+.main__hotel__rooms__form__box__search__btn:hover,
+.main__hotel__rooms__form__box__search__btn:focus {
   background-color: var(--main-text-color);
   font-weight: 700;
 }
 
 /* SEARCH - BOOKING SECTION MAIN */
 
-.main-hotel-rooms {
+.main__hotel__rooms {
   margin: 0 auto;
   width: 90%;
   max-width: 500px;
 }
 
-.main-hotel-rooms-title {
+.main__hotel__rooms__title {
   font-weight: 500;
   margin: 1.5em 0 0 0;
 }
 
-.main-hotel-rooms-subtitle {
+.main__hotel__rooms__subtitle {
   margin: 0.5em 0 2.5em 0;
 }
 
-.main-hotel-rooms-text {
+.main__hotel__rooms__text {
   display: none;
   max-width: 50rem;
   line-height: 1.6;
@@ -400,7 +401,7 @@ p {
 
 /* HOTEL ROOMS CARDS */
 
-.hotel-room-card {
+.main__hotel__room__card {
   max-width: 45rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 8px;
@@ -408,7 +409,7 @@ p {
   margin-bottom: 5em;
 }
 
-.hotel-room-card-img {
+.main__hotel__room__card__img {
   background-image: url(/photos/05-day.jpg);
   background-size: cover;
   background-position: center bottom;
@@ -427,11 +428,11 @@ p {
   background-image: url(/photos/09-day.jpg);
 }
 
-.hotel-room-card-info {
+.main__hotel__room__card__info {
   padding: 1.5em 3em;
 }
 
-.hotel-room-card-info-title {
+.main__hotel__room__card__info__title {
   margin: 0.5em 0 0 0;
 }
 
@@ -442,12 +443,12 @@ p {
   margin-top: 0.5em;
 }
 
-.hotel-room-card-info-text {
+.main__hotel__room__card__info__text {
   max-width: 300px;
   margin-bottom: 4em;
 }
 
-.hotel-room-card-info-price {
+.main__hotel__room__card__info__price {
   margin-bottom: 2em;
 }
 
@@ -456,7 +457,7 @@ p {
   font-weight: 700;
 }
 
-.hotel-room-card-info-btn {
+.main__hotel__room__card__info__btn {
   display: block;
   margin: 0 auto;
   border: 0;
@@ -470,8 +471,8 @@ p {
   border-radius: 2px;
 }
 
-.hotel-room-card-info-btn:hover,
-.hotel-room-card-info-btn:focus {
+.main__hotel__room__card__info__btn:hover,
+.main__hotel__room__card__info__btn:focus {
   background-color: var(--main-text-color);
   font-weight: 700;
 }
@@ -492,16 +493,16 @@ p {
   display: none;
 }
 
-.footer-logo {
+.footer__logo__socials__bonzai {
   width: 14%;
 }
 
-.logo-socials {
+.footer__logo__socials {
   display: flex;
   justify-content: space-between;
 }
 
-.footer-nav {
+.footer__nav {
   margin: 0 auto;
   margin-top: 2em;
   font-size: 1.5rem;
@@ -515,7 +516,7 @@ p {
   align-items: center;
 }
 
-.footer-nav a {
+.footer__nav__link {
   text-decoration: none;
   color: var(--secondary-text-color);
   text-transform: uppercase;
@@ -523,8 +524,8 @@ p {
   transition: all 250ms;
 }
 
-.footer-nav a:hover,
-.footer-nav a:focus {
+.footer__nav__link:hover,
+.footer__nav__link:focus {
   font-weight: 700;
   transform: scale(1.2);
 }
@@ -542,7 +543,7 @@ p {
   cursor: pointer;
 }
 
-.copyright {
+.footer__copyright {
   margin-top: 12em;
   color: var(--secondary-text-color);
   font-size: 1.2rem;
@@ -554,31 +555,31 @@ p {
 
 @media (min-width: 768px) {
   /* LANDING PAGE */
-  .landing-page-main__form {
+  .landing-page__main__form {
     flex-direction: row;
     justify-content: center;
   }
 
-  .landing-page-logo {
+  .landing-page__logo {
     width: 15%;
     align-self: flex-start;
     margin-left: 3em;
   }
 
-  .landing-page-header {
+  .landing-page__header {
     display: flex;
     justify-content: space-between;
   }
 
-  .landing-page-title {
+  .landing-page__title {
     display: none;
   }
 
-  .landing-page-title--desktop {
+  .landing-page__title--desktop {
     display: block;
   }
 
-  .open-nav {
+  .open__nav {
     display: none;
   }
 
@@ -586,23 +587,23 @@ p {
 
   /* ABOUT US PAGE */
 
-  .header-logo {
+  .header__logo {
     margin-left: 3em;
     width: 15%;
     max-width: 200px;
   }
 
-  .header-nav {
+  .header__nav {
     display: block;
   }
 
-  .main-about,
+  .main__about,
   .hero {
     margin: 0 auto;
     max-width: 1000px;
   }
 
-  .main-about {
+  .main__about {
     display: flex;
     flex-direction: column;
   }
@@ -612,22 +613,22 @@ p {
     margin-bottom: 5em;
   }
 
-  .main-about-box {
+  .main__about__box {
     width: 80%;
     min-height: 300px;
     padding: 5em;
   }
 
-  .main-about-box--dark {
+  .main__about__box--dark {
     align-self: flex-end;
     margin-top: 4em;
   }
 
-  .main-about-box p {
+  .main__about__box__text {
     max-width: 400px;
   }
 
-  .main-about-accomodation {
+  .main__about__accomodation {
     max-width: 90%;
     align-self: flex-end;
     margin-top: 3em;
@@ -636,25 +637,25 @@ p {
     margin-bottom: 7em;
   }
 
-  .main-about-accomodation-title {
+  .main__about__accomodation__title {
     font-size: 4.8rem;
     font-weight: 400;
     margin: 0;
     order: -2;
   }
 
-  .btn-dark {
+  .landing-page__main__form--btn-dark {
     order: -1;
     align-self: flex-start;
     margin: 0 0 2em 5em;
   }
 
-  .main-about-accomodation-img {
+  .main__about__accomodation__img {
     width: 60%;
     margin-bottom: 5em;
   }
 
-  .about-img-wrapper {
+  .main__about__img__wrapper {
     display: flex;
     flex-direction: row;
     gap: 3em;
@@ -662,7 +663,7 @@ p {
     margin-left: -8em;
   }
 
-  .main-about-accomodation-img--desktop {
+  .main__about__accomodation__img--desktop {
     display: block;
   }
 
@@ -670,53 +671,50 @@ p {
 
   /* SEARCH - BOOKING PAGE */
 
-  .main-hotel-rooms {
+  .main__hotel__rooms {
     display: flex;
     flex-direction: column;
     width: 90%;
     max-width: 1000px;
   }
 
-  .hotel-room-card {
+  .main__hotel__room__card {
     width: 60rem;
     transition: all 250ms;
   }
 
-  .hotel-room-card:hover {
+  .main__hotel-room-card:hover {
     transform: scale(1.05);
   }
 
-  .main-hotel-rooms-card-container {
+  .main__hotel__room__card__container {
     display: flex;
     justify-content: space-between;
     gap: 2em;
     margin-bottom: 5em;
   }
 
-  .form-box {
-    margin: 5em 5em 10em 0;
-  }
-
-  .main-hotel-rooms-desktop-wrapper {
+  .main__hotel__rooms--desktop-wrapper {
     display: flex;
     justify-content: flex-start;
   }
 
-  .main-hotel-rooms-title {
+  .main__hotel__rooms__title {
     margin: 1.1em 0 0 0;
     font-size: 4rem;
     font-weight: 600;
   }
 
-  .form-box {
+  .main__hotel__rooms__form__box {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     max-width: 30rem;
     height: 35rem;
+    margin: 5em 5em 10em 0;
   }
 
-  .main-hotel-rooms-text {
+  .main__hotel__rooms__text {
     display: block;
   }
 
