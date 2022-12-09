@@ -24,7 +24,9 @@
         <a class="header-nav--active" href="about.html">About us</a>
         <a href="search.html">Rooms</a>
       </nav>
-      <button aria-label="Open navigation" class="open-nav">&#9776;</button>
+      <button aria-label="Open navigation" class="open-nav open">
+        &#9776;
+      </button>
     </header>
 
     <section class="hero">
@@ -97,5 +99,11 @@
 
       <p class="copyright">Copyright © Bonz.ai, All rights reserved.</p>
     </footer>
+
+    <script>
+      document.querySelector('.toggle').addEventListener('click', (e) => {
+        document.querySelector('nav').classList.toggle('open');
+      });
+    </script>
   </body>
 </html>
