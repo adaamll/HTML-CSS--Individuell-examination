@@ -683,7 +683,7 @@ p {
     transition: all 250ms;
   }
 
-  .main__hotel-room-card:hover {
+  .main__hotel__room__card:hover {
     transform: scale(1.05);
   }
 
